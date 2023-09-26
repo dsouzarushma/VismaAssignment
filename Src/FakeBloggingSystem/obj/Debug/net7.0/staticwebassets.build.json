@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zQyD4hZw3gK0EngjDZImbdM9rWi3zCL55uJNnLgK6T0=",
+  "Source": "FakeBloggingSystem",
+  "BasePath": "_content/FakeBloggingSystem",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

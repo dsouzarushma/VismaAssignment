@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FakeBloggingSystem</name>
+    </assembly>
+    <members>
+        <member name="M:FakeBloggingSystem.Controllers.PostController.GetPosts(System.Guid,System.Boolean)">
+            <summary>
+            This API endpoint returns the post by ID and it also has option to return details of the author if requested. 
+            </summary>
+            <param name="id">Post ID to retrieve the post</param>
+            <param name="authorFlag">Flag to notify the end point whether author details are required or not.
+            True: Author details are included in response 
+            False(default):Only post details are returned</param>
+            <returns>{"isSuccess": true,"post": null,"postAuthor": {"authorId": 1,"title": "First Post","description": "This is my first post","content": "Testing Post API","author": {"name": "Rushma", "surName": "Lopes"} }}</returns>
+        </member>
+        <member name="M:FakeBloggingSystem.Controllers.PostController.AddPost(FakeBloggingSystem.Models.DTO.AddPostDTO)">
+            <summary>
+            This API endpoint is used to add new post.
+            </summary>
+            <param name="postDTO">{"authorId": 1,"title": "First Post","description": "This is my first post", "content": "Testing Post API"}</param>
+            <returns>{"id": "a8b36f84-83fc-4fee-837f-cf0d67e91030","authorId": 1,"title": "First Post","description": "This is my first post","content": "Testing Post API"}</returns>
+        </member>
+    </members>
+</doc>
